@@ -1,0 +1,20 @@
+@media (max-width: 1108px) {
+  .wrapper {
+    width: 90%;
+  }
+  #social {
+    position: absolute;
+    width: auto;
+    top: 82px;
+    right: 4px;    
+  }
+}
+
+#social selector to have an absolute position, with an automatic width, 82px from the top, and 4px from the right
+
+@media (max-width: 600px) {
+  .top-container {
+    grid-template-areas:
+    'showcase'
+    'intro'
+    'social-media';
