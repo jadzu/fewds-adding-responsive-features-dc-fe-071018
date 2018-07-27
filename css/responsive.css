@@ -1,7 +1,9 @@
 @media query (max-width: 1108px) {
+
   .wrapper {
     width: 90%;
   }
+
   #social {
     position: absolute;
     width: auto;
@@ -11,6 +13,7 @@
 }
 
 @media query (max-width: 900px) {
+
   body {
     font-size: 85%;
   }
