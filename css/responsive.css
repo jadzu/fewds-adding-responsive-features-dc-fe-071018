@@ -52,7 +52,7 @@
   .border-right {
     border: 0;
 
-  #details .wrapper  {
+  #details>wrapper  {
     height: auto;
   }
 
