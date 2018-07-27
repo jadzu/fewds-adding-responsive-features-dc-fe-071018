@@ -1,4 +1,4 @@
-@media (max-width: 1108px) {
+@media query (max-width: 1108px) {
   .wrapper {
     width: 90%;
   }
@@ -6,15 +6,56 @@
     position: absolute;
     width: auto;
     top: 82px;
-    right: 4px;    
+    right: 4px;
   }
 }
 
-#social selector to have an absolute position, with an automatic width, 82px from the top, and 4px from the right
+@media query (max-width: 900px) {
+  body {
+    font-size: 85%;
+  }
 
-@media (max-width: 600px) {
-  .top-container {
-    grid-template-areas:
-    'showcase'
-    'intro'
-    'social-media';
+  #logo h1 {
+    height: 35px;
+    width: 35px;
+  }
+
+  #logo h2 {
+    font-size: 2.2em;
+  }
+
+  #social {
+    top: 72px;
+  }
+
+  .col-3 {
+    column-count: 2;
+  }
+}
+
+@media query (max-width: 750px) {
+
+  #navbar nav a {
+    font-size: 0.9em;
+  }
+
+  .col-3 p {
+    column-count: 1;
+  }
+
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+}
+
+
+
+- **Add a breakpoint for 750px**
+  - Within this breakpoint:
+    - Set the font size of the `#navbar nav a` selector to 0.9em;
+    - Change the `.col-3 p` column count to 1
+    - For the `.col-1`, `.col-2`, and `.col-3` selectors, set the width to 100%, left margin to 0, and float to none
+    - Remove the right border by setting `.border-right` border property to 0
+    - Set the `#details div` height to auto
