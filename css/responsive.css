@@ -48,6 +48,13 @@
     margin-left: 0;
     float: none;
   }
+
+  .border-right: 0;
+
+  #details div {
+    height: auto;
+  }
+
 }
 
 
